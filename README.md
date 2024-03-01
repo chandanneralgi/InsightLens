@@ -26,14 +26,14 @@ The Macroeconomic Data Visualization Dashboard is a web application designed to 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **Data Visualization Libraries:** D3.js, Plotly.js
-- **Framework:** [Specify if applicable, e.g., Flask, Django]
-- **Deployment:** [Specify if deployed, e.g., Heroku, AWS]
 
 ## Installation
 1. Clone the repository:
 git clone https://github.com/chandanneralgi/InsightLens.git
 2. Navigate to the project directory:
 cd InsightLens
+3. Execute app.py file
+python app.py
 
 ## Usage
 1. Run the application locally:
