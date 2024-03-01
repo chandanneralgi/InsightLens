@@ -32,7 +32,7 @@ The Macroeconomic Data Visualization Dashboard is a web application designed to 
 git clone https://github.com/chandanneralgi/InsightLens.git
 2. Navigate to the project directory:
 cd InsightLens
-3. Execute app.py file
+3. Execute app.py file:
 python app.py
 
 ## Usage
