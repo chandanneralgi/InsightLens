@@ -8,7 +8,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
+            background-color: #FFDEE9;
+            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
             padding: 20px;
         }
         h1 {
@@ -16,6 +17,11 @@
             margin-bottom: 30px;
             text-align: center;
             color: #333333;
+        }
+        .title{
+            color: #333333;
+            font-size: 60px;
+            text-shadow: 3px 3px 4px #007bff
         }
         .visualization-links {
             display: grid;
@@ -34,6 +40,8 @@
         .visualization-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 12px 18px rgba(0, 0, 0, 0.15);
+            background-color: #FFDEE9;
+            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
         }
         .visualization-title {
             font-size: 1.5rem;
@@ -85,6 +93,10 @@
             <div class="visualization-card">
                 <h2 class="visualization-title"><a href="/pairplot_selected_features">Pairplot of Selected Features</a></h2>
                 <p class="visualization-description">Explore the relationships between selected numerical features.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a target="_blank" href="https://colab.research.google.com/drive/1m_qy5VwF-k5AGAneuNCOzdeg1zTGeWOp?usp=sharing">Feature Importance Plot</a></h2>
+                <p class="visualization-description">View the importance of each feature in the model.</p>
             </div>
         </div>
     </div>
