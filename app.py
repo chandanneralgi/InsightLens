@@ -51,5 +51,9 @@ def pairplot_selected_features():
     fig = px.scatter_matrix(df[['consumer_price_index', 'account_balance', 'avg_monthly_salary_enterprise', 'unemployment_rate']], title='Pairplot of Selected Numerical Features')
     return fig.to_html()
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
